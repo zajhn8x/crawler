@@ -19,6 +19,7 @@
         "php": "^7.1",
         "guzzlehttp/guzzle": "^6.3",
         "guzzlehttp/psr7": "^1.4",
+        "illuminate/database": "^5.8",
         "illuminate/support": "^5.8",
         "nicmart/tree": "^0.2.7",
         "spatie/browsershot": "^3.14",
@@ -37,7 +38,8 @@
             "Spatie\\Crawler\\": "src",
             "MyCrawler\\Demo2\\" : "demo2/src",
             "MyCrawler\\Demo3\\" : "demo3/src",
-            "MyCrawler\\Demo4\\" : "demo4/src"
+            "MyCrawler\\Demo4\\" : "demo4/src",
+            "MyCrawler\\Demo5\\" : "demo5/src"
         }
     },
     "autoload-dev": {
