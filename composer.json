@@ -19,19 +19,25 @@
         "php": "^7.1",
         "guzzlehttp/guzzle": "^6.3",
         "guzzlehttp/psr7": "^1.4",
+        "illuminate/support": "^5.8",
         "nicmart/tree": "^0.2.7",
         "spatie/browsershot": "^3.14",
         "spatie/robots-txt": "^1.0.1",
+        "symfony/css-selector": "^4.2",
         "symfony/dom-crawler": "^4.0",
         "tightenco/collect": "^5.6"
     },
     "require-dev": {
+        "larapack/dd": "^1.1",
         "phpunit/phpunit": "^7.0",
-        "larapack/dd": "^1.1"
+        "symfony/var-dumper": "^4.2"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Crawler\\": "src"
+            "Spatie\\Crawler\\": "src",
+            "MyCrawler\\Demo2\\" : "demo2/src",
+            "MyCrawler\\Demo3\\" : "demo3/src",
+            "MyCrawler\\Demo4\\" : "demo4/src"
         }
     },
     "autoload-dev": {
